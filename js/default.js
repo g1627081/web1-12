@@ -1,3 +1,3 @@
-var li = document.createElement('li');
-li.textContent='アイテム';
-document.getElementById('list').appedChild(li);
+document.getElementById('form').onsubmit(){
+   window.alert('押したよ！');
+};
