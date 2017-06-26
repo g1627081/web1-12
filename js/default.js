@@ -8,8 +8,6 @@ document.getElementById('form').onsubmit = function(){
 for(var i= 1; i<100;i++)
 {
    var li = document.createElement('li');
-   li.textContent=i;
-   
    if(i%15=0){
     li.textContent='FizzBuzz';
    }
@@ -18,6 +16,9 @@ for(var i= 1; i<100;i++)
    }
    else if(i%3=0){
     li.textContent='Buzz';
+   }
+   else{
+   li.textContent=i;
    }
    document.getElementById('while').appendChild(li);
 }
