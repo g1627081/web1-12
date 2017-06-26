@@ -2,10 +2,10 @@
    window.alert('押したよ！');
 };
 document.getElementById('form').onsubmit = function(){
-   window.alert(document.getElementById('form').num.value);
+   window.alert(document.getElementById('form').word.value);
 };
 */
-for(var i= 1; i<101;i++)
+for(var i= 1; i<100;i++)
 {
    var li = document.createElement('li');
    if(i%15==0){
@@ -20,5 +20,5 @@ for(var i= 1; i<101;i++)
    else{
    li.textContent =i;
    }
-   document.getElementById('while').appendChild(li);
+   document.getElementById('list').appendChild(li);
 }
