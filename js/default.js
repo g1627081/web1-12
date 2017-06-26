@@ -8,17 +8,16 @@ document.getElementById('form').onsubmit = function(){
 for(var i= 1; i<100;i++)
 {
    var li = document.createElement('li');
-   var con=Math.floor
    li.textContent=i;
    
    if(i%15=0){
-    li.textContent='Fizz';
+    li.textContent='FizzBuzz';
    }
    else if(i%5=0){
-    li.textContent='Buzz';
+    li.textContent='Fizz';
    }
    else if(i%3=0){
-    li.textContent='FizzBuzz';
+    li.textContent='Buzz';
    }
    document.getElementById('while').appendChild(li);
 }
