@@ -1,4 +1,4 @@
-for(var i= 1; i<submit;i++)
+for(var i= 1; i<101;i++)
 {
    var li = document.createElement('li');
    if(i%15==0){
